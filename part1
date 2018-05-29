@@ -1,0 +1,30 @@
+When will we use F1-score instead of precision(accuracy)? 
+
+F1 score 是recall跟precision的平均
+當recall與precision的值差很多時，就可以用F1 score衡量
+
+Why don’t we use binary classification function as the activation function in neural networks? 
+
+f(x)在x=0時不連續
+所以在backprop的時候無法微分
+
+What is the bias and variance of a machine learning algorithm? 
+bias 越大underfitting越嚴重
+
+variance  越大overfitting越嚴重
+
+
+
+What is one-hot encoding? 
+用0與1表示無序的特徵
+讓每一個特徵與原點的距離一樣
+
+
+How to prevent overfitting in neural networks? (write down anything you know) 
+
+1.dropout
+2.collect more data
+3.make sure training data and validation data are from same distribution
+4.regularization (L1,L2…)
+
+
